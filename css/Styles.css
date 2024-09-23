@@ -16,13 +16,14 @@
 }
 /*fin de variables*/
 
-/*Globales*/
+/*Globales universales*/
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-/*fin de globale*/
+/*fin de globale universales*/
