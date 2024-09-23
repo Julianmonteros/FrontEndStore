@@ -1,0 +1,28 @@
+/*declaraciones de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/*fin de declaraciones de fuentes */
+
+/*inicio de variables*/
+:root {
+  /*colores de la web*/
+  --primario: #9c2780;
+  --primarioobscuro: #89119d;
+  --secundario: #ffce00;
+  --secundarioobsucro: rgb(233, 287, 2);
+  --blanco: #ffffff;
+  --negro: #000000;
+  /*fuentes de la web*/
+  --fuenteprincipal: 'Staatliches', sans-serif;
+}
+/*fin de variables*/
+
+/*Globales*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*fin de globale*/
