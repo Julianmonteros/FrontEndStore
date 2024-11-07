@@ -99,3 +99,15 @@ h3 {
   color: var(--secundario);
 }
 /*Fin de navegacion*/
+/*footer*/
+.footer {
+  background: var(--primarioobscuro);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.footer__text {
+  text-align: center;
+  font-family: var(--fuenteprincipal);
+  font-size: 2.2rem;
+}
+/*fin footer*/
