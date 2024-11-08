@@ -111,3 +111,43 @@ h3 {
   font-size: 2.2rem;
 }
 /*fin footer*/
+
+/*grid*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*fin grid*/
+
+/*Producto*/
+.producto {
+  background: var(--primarioobscuro);
+  padding: 1rem;
+}
+.producto__imagen {
+  width: 100%;
+  object-fit: cover;
+}
+.producto__nombre {
+  font-size: 4rem;
+  font-family: var(--fuenteprincipal);
+  margin: 1rem 0;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.producto__precio {
+  font-size: 2.8rem;
+  font-family: var(--fuenteprincipal);
+  margin: 1rem 0;
+  text-align: center;
+  color: var(--secundario);
+  line-height: 1.2;
+}
+/*finproductos*/
