@@ -206,3 +206,21 @@ h3 {
 }
 
 /*Nosotros fin*/
+
+/*bloques*/
+.bloques {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.bloque {
+  text-align: center;
+}
+.bloque__titulo {
+  margin: 0;
+}
+.bloque__imagen {
+  width: 100%;
+}
+/*fin bloques*/
